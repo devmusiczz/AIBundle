@@ -64,7 +64,7 @@ const ConversationPage = () => {
   return ( 
     <div>
       <Heading
-        title="Conversation"
+        title="BrainStorm Session"
         description="Our most advanced conversation model."
         icon={MessageSquare}
         iconColor="text-violet-500"
@@ -96,7 +96,7 @@ const ConversationPage = () => {
                       <Input
                         className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                         disabled={isLoading} 
-                        placeholder="How do I calculate the radius of a circle?" 
+                        placeholder="Which topic would you like to discuss?" 
                         {...field}
                       />
                     </FormControl>
