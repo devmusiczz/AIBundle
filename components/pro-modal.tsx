@@ -1,23 +1,23 @@
 "use client";
 
 import axios from "axios";
-import { useState } from "react";
 import { Check, Zap } from "lucide-react";
+import { useState } from "react";
 import { toast } from "react-hot-toast";
 
-import { 
-  Dialog, 
-  DialogContent, 
-  DialogHeader, 
-  DialogTitle, 
-  DialogDescription,
-  DialogFooter
-} from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { useProModal } from "@/hooks/use-pro-modal";
-import { tools } from "@/constants";
 import { Card } from "@/components/ui/card";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle
+} from "@/components/ui/dialog";
+import { tools } from "@/constants";
+import { useProModal } from "@/hooks/use-pro-modal";
 import { cn } from "@/lib/utils";
 
 export const ProModal = () => {
@@ -43,7 +43,7 @@ export const ProModal = () => {
         <DialogHeader>
           <DialogTitle className="flex justify-center items-center flex-col gap-y-4 pb-2">
             <div className="flex items-center gap-x-2 font-bold text-xl">
-              Upgrade to AIBundle
+              Upgrade to CreatorBuddy
               <Badge variant="premium" className="uppercase text-sm py-1">
                 pro
               </Badge>
