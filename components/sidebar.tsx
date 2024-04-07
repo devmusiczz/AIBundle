@@ -1,13 +1,13 @@
 "use client";
 
-import Link from "next/link";
-import Image from "next/image";
-import { Montserrat } from 'next/font/google'
 import { Code, ImageIcon, LayoutDashboard, MessageSquare, Music, Settings, VideoIcon } from "lucide-react";
+import { Montserrat } from 'next/font/google';
+import Image from "next/image";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { cn } from "@/lib/utils";
 import { FreeCounter } from "@/components/free-counter";
+import { cn } from "@/lib/utils";
 
 const poppins = Montserrat ({ weight: '600', subsets: ['latin'] });
 
@@ -72,7 +72,7 @@ export const Sidebar = ({
             <Image fill alt="Logo" src="/logo.png" />
           </div>
           <h1 className={cn("text-2xl font-bold", poppins.className)}>
-            ContentBuddy
+            CreatorBuddy
           </h1>
         </Link>
         <div className="space-y-1">
