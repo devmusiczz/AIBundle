@@ -19,31 +19,31 @@ const routes = [
     color: "text-sky-500"
   },
   {
-    label: 'Conversation',
+    label: 'BrainStorm Session',
     icon: MessageSquare,
     href: '/conversation',
     color: "text-violet-500",
   },
   {
-    label: 'Image Generation',
+    label: 'Copyright Free Image',
     icon: ImageIcon,
     color: "text-pink-700",
     href: '/image',
   },
   {
-    label: 'Video Generation',
+    label: 'Copyright free Video',
     icon: VideoIcon,
     color: "text-orange-700",
     href: '/video',
   },
   {
-    label: 'Music Generation',
+    label: 'Copyright Free Music',
     icon: Music,
     color: "text-emerald-500",
     href: '/music',
   },
   {
-    label: 'Code Generation',
+    label: 'Video Script Writing',
     icon: Code,
     color: "text-green-700",
     href: '/code',
@@ -72,7 +72,7 @@ export const Sidebar = ({
             <Image fill alt="Logo" src="/logo.png" />
           </div>
           <h1 className={cn("text-2xl font-bold", poppins.className)}>
-            AIBundle
+            ContentBuddy
           </h1>
         </Link>
         <div className="space-y-1">
